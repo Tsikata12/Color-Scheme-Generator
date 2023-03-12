@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Scheme</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <form id="form" class="form">
+            <input id="color-input" type="color">
+            <select id="colors">
+                <option value="monochrome">Monochrome</option>
+                <option value="monochrome-dark">Monochrome-dark</option>
+                <option value="monochrome-light">Monochrome-light</option>
+                <option value="analogic">Analogic</option>
+                <option value="complement">Complement</option>
+                <option value="analogic-complement">Analogic-complement</option>
+                <option value="triad">Triad</option>
+                <option value="quad">Quad</option>
+            </select>
+            <button class="btn">Get color scheme</button>
+        </form>
+        <div id="color-box" class="colors">
+          <div style="background-color: #B3A394;"><p>#B3A394</p></div>
+          <div style="background-color: #2B283A;"><p>#2B283A</p></div>
+          <div style="background-color: #F87060;"><p>#F87060</p></div>
+          <div style="background-color: #AAD1B6;"><p>#AAD1B6</p></div>
+          <div style="background-color: #A626D3;"><p>#A626D3</p></div>
+        </div>
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
